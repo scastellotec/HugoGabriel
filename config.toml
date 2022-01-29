@@ -1,0 +1,37 @@
+baseURL = 'https://gabrielgarcia-serrano.github.io/'
+languageCode = 'en-us'
+title = 'My New Hugo Site3'
+
+
+theme = 'codex'
+[params]
+    showPageTitleInTOC = true
+
+[[menu.main]]
+    identifier = "Génesis"
+    name = "Génesis"
+    title = "Génesis"
+    url = "/genesis"
+[[menu.main]]
+    identifier = "Éxodo"
+    name = "Éxodo"
+    title = "Éxodo"
+    url = "/exodo"
+[[menu.main]]
+    identifier = "Levítico"
+    name = "Levítico"
+    title = "Levítico"
+    url = "/levitico"
+[[menu.main]]
+    identifier = "Números"
+    name = "Números"
+    title = "Números"
+    url = "/numeros"
+[[menu.main]]
+    identifier = "Deuteronomio"
+    name = "Deuteronomio"
+    title = "Deuteronomio"
+    url = "/deuteronomio"
+
+#Crear los posts dentro de content/libroCorrespondiente/postnombre.md
+#content/_index.md es la pantalla inicial; su html está en /themes/codex/layout/index.html
